@@ -544,6 +544,8 @@ footer .copyright{
     display: flex;
     align-items: center;
     width: 100%;
+    position: relative;
+    padding-bottom: 90px;
 }
 #blog .blog-img{
     width: 50%;
@@ -577,7 +579,18 @@ footer .copyright{
 #blog .blog-details a:hover{
     color: #088178;
 }
-
+#blog .blog-details a:hover:after{
+    background-color: #088178;
+}
+#blog .blog-box h1{
+    position: absolute;
+    top: -45px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -9;
+}
 
 /* Start Media Query */
 
@@ -723,5 +736,21 @@ footer .copyright{
     #prodetails .single-pro-details{
         width: 100%;
     }
-
+    /*Blog Page*/
+    #blog{
+        padding: 100px 20px 0 20px;
+    }
+    #blog .blog-box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #blog .blog-img{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #blog .blog-details{
+        width: 100%;
+    }
 }
