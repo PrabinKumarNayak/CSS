@@ -93,7 +93,7 @@ section .main .men_text h1{
     text-align: center;
     font-size: 17px;
     position: relative;
-    bottom: 0px;
+    bottom:99px;
     color: #fff;
     left: 105px;
     cursor: pointer;
@@ -101,11 +101,52 @@ section .main .men_text h1{
     border-radius: 30px 130px 30px;
     transition: 0.3s;
 }
-.men_texth2:hover{
+.men_text h2:hover{
     background: #000;
 }
 section .main .men_text h2 span{
     color: #f5f5f5;
     font-family: mv boli;
     font-size: 25px;
+}
+section .main .main_image img{
+    position: relative;
+    width:650px;
+    margin-left: 200px;
+}
+section p{
+    overflow: hidden;
+    width: 550px;
+    text-align: center;
+
+    position: relative;
+    left: 123px;
+    bottom: 121px;
+    line-height: 22px;
+}
+.main_btn{
+    background: #68d66f;
+    position: absolute;
+    left: 586px;
+    bottom: 90px;
+    width: 150px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px 130px 30px;
+    padding: 8px;
+    transition: 0.3s;
+}
+.main_btn:hover{
+    background: #000;
+}
+.main_btn a{
+    color: #fff;
+    margin-right: 5px;
+}
+.main_btn i{
+    color: #fff;
+    transition: 0.3s;
+}
+.main_btn:hover i{
+    transform: translateX(7px);
 }
