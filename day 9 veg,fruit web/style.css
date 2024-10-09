@@ -446,3 +446,55 @@ section p{
     cursor: pointer;
     transition: 0.3s;
 }
+.contact_btn:hover{
+    background: #000;
+}
+.field:focus{
+    border: 2px solid #68d66f;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    padding: 100px 0 0 20px;
+    background: #eeeeee;
+}
+footer .footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.footer_main .footer_tag{
+    text-align: center;
+}
+.footer_tag h2{
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.footer_tag p{
+    margin: 10px 0;
+}
+.footer_tag i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+.footer_tag i:hover{
+    color: #68d66f;
+}
+footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+footer .end span{
+    color: #68d66f;
+    margin-left: 10px;
+}
